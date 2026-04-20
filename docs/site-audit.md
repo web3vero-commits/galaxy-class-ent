@@ -31,6 +31,41 @@
   12. In-house Record Labels
 - **Contact Form** (accepts MP3, MP4, TXT, DOCX up to 64MB)
 
+## Current Branding (Extracted)
+
+### Logo
+- **Style:** Circular vinyl-record motif, gold metallic gradient, script typeface
+- **Mark:** "GCE" monogram in center circle with concentric arc rings above
+- **Wordmark:** Script "Galaxy Class" + "ENTERTAINMENT" in small caps
+- **Decorative elements:** Sparkle/star accents, tail swooshes
+- **Assessment:** Decorative, dated, not scalable — poor at small sizes, no single-color version works
+- **File saved:** `assets/logo-current-270px.png`
+
+### Color Palette (Current Site)
+| Role | Hex | Usage |
+|------|-----|-------|
+| Primary Accent | `#fd7800` | CTA buttons, slider text highlights |
+| Body Text | `#333333` | Main content text |
+| Secondary Text | `#717171` | Subtext, captions |
+| Light Text | `#9A9A9A` | Metadata, placeholders |
+| Background | `#E9E9E9` | Page/section backgrounds |
+| White | `#FFFFFF` | Card backgrounds, nav |
+
+### Typography (Current)
+- **Body/UI:** Roboto (regular) via Google Fonts
+- **Headings:** Dosis (regular) via Google Fonts
+- Both loaded as single weight — no typographic hierarchy
+
+### Graphics on Site
+- 3 homepage icons: services-icon.png, promotions-icon.png, consult-icon.png (saved to assets/)
+- 3 slider images (stock photography)
+- No custom illustrations or branded graphics beyond the logo
+
+### Analytics
+- Google Analytics ID: `G-18MCZ81P35`
+
+---
+
 ## Current Tech Stack (inferred)
 - WordPress on Hostinger Business Web Hosting
 - No pricing listed — quote on contact
