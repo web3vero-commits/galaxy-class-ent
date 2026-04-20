@@ -8,8 +8,8 @@ import ArtistAnnouncement from "../templates/artist-announcement";
 import ServicePromo from "../templates/service-promo";
 
 const resend = new Resend(process.env.RESEND_API_KEY);
-const TO = ["michael_z@galaxyclassent.com", "galaxyclassent1@gmail.com"];
-const FROM = "Galaxy Class Entertainment <onboarding@resend.dev>";
+const TO = process.env.SEND_TO ? process.env.SEND_TO.split(",") : ["foleymon@gmail.com"];
+const FROM = "Galaxy Class Entertainment <newsletter@galaxyclassent.com>";
 
 const templates = [
   {
