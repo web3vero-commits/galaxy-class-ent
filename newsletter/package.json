@@ -5,15 +5,19 @@
   "scripts": {
     "dev": "email dev --port 3001",
     "build": "email export --outDir ./out",
-    "preview": "email preview"
+    "send-test": "tsx scripts/send-test.ts"
   },
   "dependencies": {
     "@react-email/components": "^1.0.12",
     "@types/node": "^25.6.0",
+    "@types/nodemailer": "^6.4.17",
     "@types/react": "^19.2.14",
+    "nodemailer": "^6.9.16",
     "react": "^19.2.5",
     "react-dom": "^19.2.5",
     "react-email": "^6.0.0",
+    "resend": "^6.12.2",
+    "tsx": "^4.19.3",
     "typescript": "^6.0.3"
   }
 }

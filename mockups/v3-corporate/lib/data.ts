@@ -71,6 +71,20 @@ export const artists = [
   { name: "XO Angelic", genre: "R&B / Pop", domain: "iamxoangelic.com" },
 ];
 
+export const contact = {
+  name: "Michael Zdanowicz",
+  alias: "MikeZ",
+  title: "Founder & CEO",
+  company: "Galaxy Class Entertainment Inc.",
+  emailPrimary: "michael_z@galaxyclassent.com",
+  emailAlt: "galaxyclassent1@gmail.com",
+  phoneOrlando: "(407) 574-6988",
+  phoneNashville: "(615) 512-1741",
+  locationFL: "Orlando, FL",
+  locationTN: "Nashville, TN",
+  website: "https://galaxyclassent.com",
+};
+
 export const testimonials = [
   {
     quote: "Galaxy Class took my career from local gigs to national radio in under a year. Michael and his team understand this industry at every level.",

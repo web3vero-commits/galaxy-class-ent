@@ -1,6 +1,6 @@
 {
-  "name": "galaxy-class-v3-corporate",
+  "framework": "nextjs",
   "buildCommand": "npm run build",
   "outputDirectory": ".next",
-  "framework": "nextjs"
+  "installCommand": "npm install"
 }
