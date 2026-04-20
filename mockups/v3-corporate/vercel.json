@@ -1,0 +1,6 @@
+{
+  "name": "galaxy-class-v3-corporate",
+  "buildCommand": "npm run build",
+  "outputDirectory": ".next",
+  "framework": "nextjs"
+}
