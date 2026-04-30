@@ -1,22 +1,52 @@
 # Environment
 .env
-.env.local
-.env*.local
+.env.*
+!.env.example
+!.env.*.example
+
+# Secrets — service accounts, keys, certificates
+secrets/
+*-sa.json
+*-credentials.json
+*-service-account.json
+*.pem
+*.key
+*.p12
+*.pfx
+id_rsa
+id_ed25519
+*.gpg
 
 # Node
 node_modules/
 .next/
 out/
 dist/
+build/
+*.tsbuildinfo
+
+# Vercel
+.vercel/
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Local data dumps that should never be tracked
+*.sqlite
+*.db
+*.dump
 
 # OS
 .DS_Store
 Thumbs.db
-
-# Vercel
-.vercel
+desktop.ini
 
 # Editor
 .vscode/
 .idea/
 *.swp
+*.swo
+*~
