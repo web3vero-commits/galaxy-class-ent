@@ -1,0 +1,19 @@
+{
+  "name": "gce-radio-outreach",
+  "version": "1.0.0",
+  "description": "Galaxy Class Entertainment — Radio Station Research & Outreach Tracker",
+  "scripts": {
+    "research": "npx tsx scripts/research.ts",
+    "log": "npx tsx scripts/log-call.ts",
+    "export": "npx tsx scripts/export-sheet.ts",
+    "status": "npx tsx scripts/research.ts",
+    "enrich:dry": "npx tsx scripts/enrich-pd-md.ts --dry-run",
+    "enrich:smoke": "npx tsx scripts/enrich-pd-md.ts --limit 5",
+    "enrich:phase1": "npx tsx scripts/enrich-pd-md.ts --rank-max 100 --limit 500"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.40.1",
+    "resend": "^6.12.2",
+    "tsx": "^4.7.0"
+  }
+}
