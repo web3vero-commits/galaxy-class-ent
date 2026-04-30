@@ -1,0 +1,25 @@
+# Inherits from repo root .gitignore. This file adds project-specific patterns.
+
+# Next.js
+.next/
+out/
+next-env.d.ts
+
+# Environment
+.env
+.env.*
+!.env.example
+
+# Vercel
+.vercel/
+
+# TypeScript
+*.tsbuildinfo
+
+# Test
+coverage/
+
+# Local cache / data
+.cache/
+.temp/
+*.local
